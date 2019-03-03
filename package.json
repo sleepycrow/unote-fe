@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dev": "webpack --progress --env.NODE_ENV=local",
-    "build-production": "webpack --progress --mode=production --env.NODE_ENV=production"
+    "build-prod": "webpack --progress --mode=production --env.NODE_ENV=production"
   },
   "author": "",
   "license": "ISC",
