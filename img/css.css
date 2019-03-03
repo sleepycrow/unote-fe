@@ -1,0 +1,39 @@
+@font-face {
+    font-family: ModernPictograms;
+    src: url('modernpics.ttf')  format('truetype'),
+        url('modernpics.otf') format('opentype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote{
+    border-left: 3px solid #CCC;
+    margin: 8px 4px;
+    padding: 2px 4px;
+}
+
+input, textarea{
+    border: 0;
+    border-bottom: 2px solid #CCC;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 8px;
+    background-color: #CCC;
+    border: 0px;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.icon-font{
+    font-family: ModernPictograms;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-transform: none;
+}
