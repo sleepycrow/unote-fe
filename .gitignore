@@ -1,3 +1,4 @@
 # ignore node_modules, the heaviest object in the universe
 node_modules/
 .vscode/
+*.bundle.js

@@ -19,7 +19,7 @@
 
         import { get, del } from 'idb-keyval';
         import route from 'riot-route';
-        const marked = require('marked');
+        const textile = require('textile-js');
 
         var self = this;
         
@@ -45,7 +45,7 @@
                     self.note = val;
 
                     self.refs.noteTitle.innerHTML = val.title;
-                    self.refs.noteContent.innerHTML = marked(val.content);
+                    self.refs.noteContent.innerHTML = textile(val.content);
                 }
             });
         }

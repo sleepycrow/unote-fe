@@ -2,7 +2,7 @@
 
     <article>
         <h1>Welcome to uNote<sup>&alpha;</sup></h1>
-        <p>uNote is a note-taking progressive web app (which means it works even when you're offline! ^_^) with markdown markup and cloud-syncing.</p>
+        <p>uNote is a note-taking progressive web app (which means it works even when you're offline! ^_^) with <a href="https://textile-lang.com/">Textile</a> markup and cloud-syncing.</p>
         <p>uNote is currently in early alpha, saving all your super-sensitive business data here might not be such a hot idea just yet. If you find any bugs, please send all info about it (how it happened, what happened, console logs if you can) to daniel[at]0.pl</p>
         <p>Have fun!</p>
 

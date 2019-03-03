@@ -17,6 +17,8 @@
         </div>
     </div>
 
+    <a href="https://devhints.io/textile" target="_blank" class="cheatsheet"><img src="img/textile.png" alt="Textile logo" title="Text Formatting Cheatsheet" /></a>
+
     <script>
 
         import { get, set } from 'idb-keyval';
@@ -115,6 +117,21 @@
 
         .note textarea{
             height: calc(100vh - 32px - 64px);
+        }
+
+        .cheatsheet{
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+        }
+
+        .cheatsheet img{
+            opacity: 0.5;
+            height: 32px;
+        }
+
+        .cheatsheet img:hover{
+            opacity: 0.75;
         }
     </style>
 
