@@ -1,13 +1,17 @@
 <homepage>
 
     <article>
-        <h1>Welcome to uNote<sup>&alpha;</sup></h1>
-        <p>uNote is a note-taking progressive web app (which means it works even when you're offline! ^_^) with <a href="https://textile-lang.com/">Textile</a> markup and cloud-syncing.</p>
-        <p>uNote is currently in early alpha, saving all your super-sensitive business data here might not be such a hot idea just yet. If you find any bugs, please send all info about it (how it happened, what happened, console logs if you can) to daniel[at]0.pl</p>
-        <p>Have fun!</p>
+        <h1>Welcome to uNote<sup>&beta;</sup></h1>
+        <p>uNote is a progressive note-taking web app with <a href="https://textile-lang.com/">Textile</a> markup and cloud-syncing.</p>
+        <p>The app is still not finished, so I wouldn't recommend putting super-important stuff like your car keys or only child here. Not unless you want to sacrifice them to null, the god of fucking up your data.</p>
+        <p><strong>If you find any bugs, please report them to me via e-mail (sleepycrow[at]protonmail.com) or Telegram (<a href="https://t.me/sleepycrow">@sleepycrow</a>)!</strong></p>
 
-        <h3>Props</h3>
-        <p>Tons of props to <a href="http://riot.js.org">the RIOT.js contributors</a> and <a href="https://modernpictograms.com/">the makers of Modern Pictograms</a>! &lt;3</p>
+        <h3>Props to:</h3>
+        <ul>
+            <li>the RIOT.js and Textile-js contributors,</li>
+            <li>the creators of Modern Pictograms,</li>
+            <li>you, for using this app &lt;3</li>
+        </ul>
     </article>
 
 </homepage>
