@@ -46,11 +46,15 @@
             let username = self.refs.username.value;
             let password = self.refs.password.value;
 
-            api.register(username, password)
-            .then(() => {
-                self.login();
-            })
-            .catch(handleError);
+            if(username.length >= 3 && password.length >= 3){
+                api.register(username, password)
+                .then(() => {
+                    self.login();
+                })
+                .catch(handleError);
+            }else{
+                window.alert("The username and password must be at least 3 characters long!");
+            }
         }
 
     </script>

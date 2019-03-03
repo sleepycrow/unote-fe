@@ -67,10 +67,14 @@
             self.note.title = self.refs.noteTitle.value;
             self.note.content = self.refs.noteContent.value;
 
-            if(self.noteId != ""){
-                self.saveExistingNote();
+            if(self.note.title.replace(/ /gi, "").length > 0){
+                if(self.noteId != ""){
+                    self.saveExistingNote();
+                }else{
+                    self.saveNewNote();
+                }
             }else{
-                self.saveNewNote();
+                window.alert("You can't submit a note with no title!");
             }
         }
 
