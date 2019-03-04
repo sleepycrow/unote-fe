@@ -4,7 +4,7 @@
         <header>
             <input type="text" ref="noteTitle" placeholder="Note Title" value={ note.title }>
         </header>
-        <textarea ref="noteContent" placeholder="Note Content"></textarea>
+        <textarea ref="noteContent" style="border: 0;resize: none;" placeholder="Note Content"></textarea>
     </article>
 
     <div class="context-buttons">
