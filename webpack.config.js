@@ -2,6 +2,8 @@ const path = require('path');
 
 module.exports = env => {
 
+    var outputPath = (env.NODE_ENV == "local") ? path.resolve(__dirname) : path.resolve(__dirname, "prod");
+
     return {
         mode: 'development',
 
@@ -10,7 +12,7 @@ module.exports = env => {
             sw: "./src/sw.js"
         },
         output: {
-            path: path.resolve(__dirname),
+            path: outputPath,
             filename: "[name].bundle.js"
         },
 
