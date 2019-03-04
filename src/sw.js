@@ -1,7 +1,7 @@
 const scope = require('config').scope;
 
 const cacheName = "uNoteCache";
-const filesToCache = [scope, scope + "index.html", scope + "js/main.bundle.js", scope + "js/vendors~main.bundle.js", scope + "js/sw.bundle.js", scope + "img/css.css", scope + "img/modernpics.otf", scope + "img/modernpics.ttf"];
+const filesToCache = [scope, scope + "index.html", scope + "js/main.bundle.js", scope + "js/vendors~main.bundle.js", scope + "js/sw.bundle.js", scope + "img/css.css", scope + "img/modernpics.otf", scope + "img/modernpics.ttf", scope + "img/textile.png"];
 
 self.addEventListener("install", function(event){
     event.waitUntil(
