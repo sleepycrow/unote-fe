@@ -102,6 +102,11 @@
             top: 0;
             right: 0;
             z-index: 99;
+
+            border-left: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+            border-radius: 0 0 0 8px;
+            background-color: rgba(238, 238, 238, 0.5);
         }
 
         .context-buttons .button{
@@ -111,7 +116,7 @@
             text-align: center;
             font-size: 32px;
             cursor: pointer;
-            background-color: rgba(238, 238, 238, 0.5);
+            background: transparent;
             margin-left: 4px;
         }
 

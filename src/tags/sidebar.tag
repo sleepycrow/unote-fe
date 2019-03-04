@@ -173,6 +173,10 @@
             font-size: 32px;
             cursor: pointer;
             background-color: rgba(238, 238, 238, 0.5);
+
+            border-right: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+            border-radius: 0 0 8px 0;
         }
 
         .hamburger-button:hover{
