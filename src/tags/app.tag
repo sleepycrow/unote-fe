@@ -91,12 +91,10 @@
     </script>
 
     <style>
-        @media only screen and (min-width: 768px) {
-            main{
-                margin-left: 300px;
-            }
+        main{
+            margin-top: 64px;
         }
-
+    
         .context-buttons{
             position: fixed;
             top: 0;
@@ -147,6 +145,13 @@
             background-color: rgba(0, 0, 0, 0.25);
             cursor: wait;
             display: none;
+        }
+
+        @media only screen and (min-width: 768px) {
+            main{
+                margin-left: 300px;
+                margin-top: 0;
+            }
         }
     </style>
 

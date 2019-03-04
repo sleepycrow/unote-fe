@@ -1,6 +1,6 @@
 <note-editor>
 
-    <article class="note">
+    <article class="note note-editor">
         <header>
             <input type="text" ref="noteTitle" placeholder="Note Title" value={ note.title }>
         </header>
@@ -119,11 +119,12 @@
             font-size: 32px;
         }
 
-        .note textarea{
-            height: calc(100vh - 32px - 64px);
+        .note-editor textarea{
+            height: calc(100vh - 32px - 64px - 64px);
         }
 
         .cheatsheet{
+            display: none;
             position: fixed;
             bottom: 16px;
             right: 16px;
@@ -136,6 +137,16 @@
 
         .cheatsheet img:hover{
             opacity: 0.75;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .note-editor textarea{
+                height: calc(100vh - 32px - 64px);
+            }
+
+            .cheatsheet{
+                display: block;
+            }
         }
     </style>
 
